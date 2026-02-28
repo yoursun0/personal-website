@@ -84,6 +84,17 @@ export const cvData: CVData = {
         "Delivered a web-based evaluation system for OGCIO using Spring framework.",
         "Evaluated and implemented advanced front-end frameworks such as AngularJS and Bootstrap."
       ]
+    },
+    {
+      company: "ecVision Ltd.",
+      role: "Software Engineer",
+      period: "Oct 2011 to Sep 2012",
+      location: "Hong Kong",
+      highlights: [
+        "Developed a J2EE-based web portal for maintain post-production business logic maintenancein garment industry.",
+        "Implemented customized modules for evaluating costing price and generating jasper reports.",
+        "Negotiated with clients on project specifications and requirements, arranged project schedules and collaborated with product support."
+      ]
     }
   ],
   education: [

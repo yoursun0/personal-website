@@ -1,0 +1,26 @@
+name: Deploy React App to User Page
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy to yoursun0.github.io
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.DEPLOY_PAT }}
+          external_repository: yoursun0/yoursun0.github.io
+          publish_branch: main
+          publish_dir: ./build

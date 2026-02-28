@@ -1,7 +1,7 @@
 import { CVData } from "./types";
 
 export const cvData: CVData = {
-  name: "Leung Ming Lam, Helic",
+  name: "Helic, Leung Ming Lam",
   title: "Visionary IT Manager & Technical Lead",
   email: "leunghelic@gmail.com",
   phone: "(852) 61573428",
